@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import fse from 'fs-extra';
 
-const buildDir = 'dist';
+const buildDir = 'docs';
 const dataDir = 'data';
 
 if (!fs.existsSync(buildDir)) {
