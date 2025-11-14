@@ -15,6 +15,7 @@ input[type=checkbox] {
     word-wrap: break-word;
     font-family: Arial, sans-serif;
     font-size: 0.75rem;
+    font-style: italic;
 }
 
 #loading-overlay {
