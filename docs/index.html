@@ -1,18 +1,17 @@
 <!doctype html>
 <html>
 <head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>DLExAge-VIS</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <div id="vtk-container"></div>
-  <script defer="defer" src="bundle.js" type="module"></script>
-
-  <input type="checkbox" id="eyeToggle" checked>
-  <label for="eyeToggle">Show eye model</label>
-
-  <div>
-    <a href="https://www.thingiverse.com/thing:2833672">Human eye model by Quinventor © 2018 is licensed under the Creative Commons - Attribution 4.0 license.</a>
-  </div>
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <p>Loading visualisation...</p>
+    </div>
+    <div class="content"></div>
+    <script defer="defer" src="bundle.js" type="module"></script>
 </body>
 </html>
